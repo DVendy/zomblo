@@ -1,0 +1,98 @@
+@media (min-width: 1200px) {
+    .container{
+        width: 970px;
+    }
+}
+
+#googleMap {
+    position: fixed !important;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+}
+.main {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+.gm-style-cc > div > span{
+  display: none;
+}
+.gm-style-cc > div > a{
+  display: none;
+}
+.gm-style > div > a > div > img{
+  display: none;
+}
+
+.logo{
+    background: rgba(255,73,0,0.85);
+    text-align: center;
+    max-width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.logo h1{
+    color: #FFEBEB;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+}
+
+.banner{
+    background: rgba(255,73,0,0.85);
+    text-align: center;
+    width: 100%;
+    padding: 30px 60px;
+    margin-top: 30px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.banner h1{
+    color: #FFEBEB;
+    margin: 0;
+    font-size: 70px;
+}
+
+.subtitle{
+    margin-top: 30px;
+}
+
+.subtitle h2{
+    color: black;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subtitle h3{
+    color: #333;
+    margin: 0;
+    font-size: 24px;
+}
+
+a.btn-daftar{
+    color: #FFEBEB;
+    background-color: #000000;
+    font-size: 30px;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+}
+
+.subbutton{
+    margin-top: 30px;
+}
+
+a.btn-daftar:hover{
+    color: rgb(255,73,0);
+}
